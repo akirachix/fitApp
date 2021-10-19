@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -90,7 +91,8 @@
                 android:background="@drawable/border"
                 android:minHeight="48dp"
                 android:padding="10dp"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
         </LinearLayout>
         <!--Email-->
         <LinearLayout
@@ -182,6 +184,7 @@
             android:orientation="vertical">
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/btncreate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/backgroundColor"

@@ -14,9 +14,9 @@ class splash : AppCompatActivity() {
         setContentView(binding.root)
 
 
-   binding.btnget.setOnClickListener {
-       var intent = Intent(baseContext, SignUp ::class.java)
-       startActivity(intent)
-   }
+        binding.btnget.setOnClickListener {
+            var intent = Intent(baseContext, Slides::class.java)
+            startActivity(intent)
+        }
     }
 }
