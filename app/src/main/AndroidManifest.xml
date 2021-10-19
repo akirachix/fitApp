@@ -10,10 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FitApp">
         <activity
-            android:name=".Signin"
+            android:name=".ForgotPassword"
             android:exported="true" />
         <activity
             android:name=".Signup"
+            android:exported="true" />
+        <activity
+            android:name=".Signin"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".Slides"
@@ -22,7 +28,7 @@
             android:name=".splash"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ResetPassword"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
