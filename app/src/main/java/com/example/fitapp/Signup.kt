@@ -1,11 +1,34 @@
 package com.example.fitapp
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import androidx.databinding.DataBindingUtil
+import com.example.fitapp.databinding.ActivitySignupBinding
+
 
 class Signup : AppCompatActivity() {
+    lateinit var binding:ActivitySignupBinding
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_signup)
+
+        // this
+        val binding: ActivitySignupBinding = DataBindingUtil.setContentView(
+            this, R.layout.activity_signup)
+
+
+        // click listener for layout
+        binding.btncreate.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
+        // click listener for layout
+        binding.btnLogin.setOnClickListener {
+            val intent = Intent(this, Signin::class.java)
+            startActivity(intent)
+        }
     }
 }
+
