@@ -37,6 +37,7 @@
     </androidx.appcompat.widget.Toolbar>
 
     <LinearLayout
+        android:layout_marginBottom="110dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="20dp"
@@ -64,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/border"
-                android:minHeight="48dp"
+                android:minHeight="45dp"
                 android:padding="10dp"
                 android:textSize="18sp" />
         </LinearLayout>
