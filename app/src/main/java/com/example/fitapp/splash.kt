@@ -16,7 +16,7 @@ class splash : AppCompatActivity() {
             this, R.layout.activity_splash )
         // click listener for layout
         binding.layoutSplash.setOnClickListener {
-            val intent = Intent(this, Signup::class.java)
+            val intent = Intent(this, Slides::class.java)
             startActivity(intent)
         }
 

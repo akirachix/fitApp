@@ -12,5 +12,13 @@ class Slides : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        binding=DataBindingUtil.setContentView(
+            this, R.layout.activity_Slides )
+        // click listener for layout
+        binding.layoutSlides.setOnClickListener {
+            val intent = Intent(this, Signup::class.java)
+            startActivity(intent)
+        }
+
     }
 }
