@@ -1,4 +1,4 @@
-The idea of coming up with a mobile application came after the research we did and  we found that most women want to do workouts but due to some reasons like;
+The idea of coming up with a mobile application came after the research we did and  we found that most women want to do workouts but due to some reasons like:
 lack of motivation,lack of equipments, failure to follow workout routines due to tight schedule, same workout videos throught thus leading to boredom,time consumption by having to go to the gym for workout.
 
 Which made their workout more challenging.In order to solve all these we designed an App that will enable our user's to workout from home or wherever they are.Once they log in into the app, they are able to view the different collections of workouts and choose their most prefered thereafter they will be taken to the next screen with instructors who are specifically recomended to the workout that the user chose.
