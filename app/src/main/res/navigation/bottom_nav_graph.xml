@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/homeFragment">
+
+
+
+<fragment
+android:id="@+id/homeFragment"
+android:name="com.example.fitapp.fragments.HomeFragment"
+android:label="Home Fragment"
+tools:layout="@layout/fragment_home" />
+<fragment
+android:id="@+id/profileFragment"
+android:name="com.example.fitapp.fragments.ProfileFragment"
+android:label="Profile Fragment"
+tools:layout="@layout/fragment_profile" />
+<fragment
+android:id="@+id/progressFragment"
+android:name="com.example.fitapp.fragments.ProgressFragment"
+android:label="Progress Fragment"
+tools:layout="@layout/fragment_progress" />
+</navigation>
