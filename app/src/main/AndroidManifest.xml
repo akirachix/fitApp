@@ -10,10 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FitApp">
         <activity
+            android:name=".ProgressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Goals"
+            android:exported="true" />
+        <activity
             android:name=".Congration"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:exported="true" />
         <activity
             android:name=".ResetPassword"
@@ -31,7 +37,7 @@
             android:name=".Slides"
             android:exported="true" />
         <activity
-            android:name=".splash"
+            android:name=".activities.splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
