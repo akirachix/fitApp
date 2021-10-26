@@ -3,11 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/border.xml" value="0.15416666666666667" />
+        <entry key="app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/drawable/ic_baseline_profile_pin_24.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/activity_congration.xml" value="0.1171875" />
+        <entry key="app/src/main/res/layout/activity_goals.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1546875" />
+        <entry key="app/src/main/res/layout/activity_progress.xml" value="0.1546875" />
+        <entry key="app/src/main/res/layout/activity_reset_password.xml" value="0.13020833333333334" />
+        <entry key="app/src/main/res/layout/activity_signin.xml" value="0.1546875" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.1546875" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1546875" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.1546875" />
+        <entry key="app/src/main/res/layout/fragment_profile_fregment.xml" value="0.13802083333333334" />
+        <entry key="app/src/main/res/layout/fragment_progress.xml" value="0.1546875" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.13802083333333334" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>
