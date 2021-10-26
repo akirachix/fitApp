@@ -5,4 +5,4 @@ Which made their workout more challenging.In order to solve all these we designe
 
 The instructor's are chosen according to their availability. After choosing, they are supposed to book since the workouts are conducted online. The user will also have to input if either they want to pay for a day, a week or month workout afterwhich they will be able to choose their most preffered method of payment then gets a notification on the status of their payments.
 
-The app also has a navigation that enables users to easily navigate to the profile and progress screen.Under profile the user is able to upload thier profile pictures,upload their pictures,proffesion,their names and be abble to set their workout goals. Under progress the user will be able to track their progress and records it in the app.
+The app also has a navigation that enables users to navigate  navigate easily to the profile and progress screen.Under profile the user is able to upload thier profile pictures,upload their pictures,proffesion,their names and be abble to set their workout goals. Under progress the user will be able to track their progress and records it in the app.
