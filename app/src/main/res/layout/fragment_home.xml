@@ -5,9 +5,113 @@
     android:layout_height="match_parent">
 
     <!-- TODO: Update blank fragment layout -->
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Categories"
+        android:textAlignment="center"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/ic_search_foreground" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_below="@id/txtTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="230dp"
+        android:src="@drawable/home2" />
+
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="HomeFragment" />
+        android:layout_height="wrap_content"
+        android:text="Zumba"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_marginTop="110dp"
+        android:textAlignment="viewEnd"
+        android:paddingEnd="40dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_below="@id/txtTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="230dp"
+        android:src="@drawable/home3" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arms and Abs"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_marginTop="250dp"
+
+        android:textAlignment="viewEnd"
+        android:paddingEnd="40dp"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_below="@id/txtTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="230dp"
+        android:src="@drawable/home4" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Belly workouts"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_marginTop="430dp"
+        android:textAlignment="viewEnd"
+        android:paddingEnd="40dp"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_below="@id/txtTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="230dp"
+        android:src="@drawable/home5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cardio"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_marginTop="530dp"
+        android:textAlignment="viewEnd"
+        android:paddingEnd="40dp"/>
+
+
 
 </FrameLayout>

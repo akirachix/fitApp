@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FitApp">
         <activity
-            android:name=".ProgressActivity"
+            android:name=".activities.ProgressActivity"
             android:exported="true" />
         <activity
-            android:name=".Goals"
+            android:name=".activities.Goals"
             android:exported="true" />
         <activity
             android:name=".Congration"
