@@ -32,5 +32,9 @@ class Signin : AppCompatActivity() {
             val intent = Intent(this, ForgotPassword::class.java)
             startActivity(intent)
         }
+        binding.imgBackButton.setOnClickListener {
+            val intent = Intent(this, Slides::class.java)
+            startActivity(intent)
+        }
         }
     }

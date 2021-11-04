@@ -33,6 +33,10 @@ class Signup : AppCompatActivity() {
             val intent = Intent(this, Signin ::class.java)
             startActivity(intent)
         }
+        binding.imgBackButton.setOnClickListener {
+            val intent = Intent(this, Slides ::class.java)
+            startActivity(intent)
+        }
     }
 }
 

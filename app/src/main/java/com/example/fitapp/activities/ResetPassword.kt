@@ -16,8 +16,8 @@ class ResetPassword : AppCompatActivity() {
         val binding: ActivityResetPasswordBinding = DataBindingUtil.setContentView(
             this, R.layout.activity_reset_password)
 
-        binding.btnchanges.setOnClickListener {
-            val intent = Intent(this, Congration ::class.java)
+        binding.imgBackButton.setOnClickListener {
+            val intent = Intent(this, ForgotPassword ::class.java)
             startActivity(intent)
     }
 }

@@ -20,6 +20,10 @@ class ForgotPassword : AppCompatActivity() {
             val intent = Intent(this, ResetPassword::class.java)
             startActivity(intent)
         }
+        binding.imgBackButton.setOnClickListener {
+            val intent = Intent(this, Signin::class.java)
+            startActivity(intent)
+        }
 
 
 

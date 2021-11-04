@@ -40,5 +40,11 @@ class InstractorScreen : AppCompatActivity() {
 
 
         }
+        binding.imgBackButton.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+
+
+        }
     }
 }

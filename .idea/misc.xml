@@ -11,7 +11,7 @@
         <entry key="app/src/main/res/layout/activity_congrates.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_congrates2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_congration.xml" value="0.1171875" />
-        <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.1546875" />
+        <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_goals.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_instractor_screen.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
@@ -24,7 +24,7 @@
         <entry key="app/src/main/res/layout/activity_signup.xml" value="0.1546875" />
         <entry key="app/src/main/res/layout/activity_slides.xml" value="0.1546875" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.1546875" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.1546875" />
         <entry key="app/src/main/res/layout/fragment_profile_fregment.xml" value="0.13802083333333334" />
         <entry key="app/src/main/res/layout/fragment_progress.xml" value="0.1546875" />

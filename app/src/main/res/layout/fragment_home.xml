@@ -12,12 +12,12 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:background="@drawable/border"
-        android:backgroundTint="@color/backgroundColor"
         android:padding="10dp"
         android:textSize="20sp"
         android:textStyle="bold"
         android:text="Categories"
         android:textAlignment="center"
+        android:src="@drawable/ic_search_foreground"
         />
 
 
@@ -26,10 +26,10 @@
         android:layout_height="50dp"
         android:layout_below="@id/txtTitle"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="30dp"
-        android:src="@drawable/ic_search_foreground" />
+        android:src="@drawable/ic_baseline_search_24" />
 
     <GridLayout
         android:layout_width="match_parent"
