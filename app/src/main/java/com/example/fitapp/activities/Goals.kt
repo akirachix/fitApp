@@ -21,7 +21,7 @@ class Goals : AppCompatActivity() {
         )
         // click listener for layout
         binding.btnsave.setOnClickListener {
-            val intent = Intent(this,ProgressFragment ::class.java)
+            val intent = Intent(this, onResumeFragments() ::class.java)
             startActivity(intent)
         }
 

@@ -10,6 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FitApp">
         <activity
+            android:name=".activities.Congrates"
+            android:exported="true" />
+        <activity
+            android:name=".activities.CongratesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.mobileMoneyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.airtelMoneyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.MpesaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.Card"
+            android:exported="true" />
+        <activity
+            android:name=".activities.PopUp"
+            android:exported="true" />
+        <activity
+            android:name=".activities.InstractorScreen"
+            android:exported="true" />
+        <activity
             android:name=".activities.ProgressActivity"
             android:exported="true" />
         <activity
