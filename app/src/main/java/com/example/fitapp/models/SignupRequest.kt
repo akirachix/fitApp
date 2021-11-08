@@ -1,9 +1,11 @@
 package com.example.fitapp.models
 
+import com.google.gson.annotations.SerializedName
+
 data class SignupRequest(
-    var firstName: String,
-    var lastName: String,
+    @SerializedName("first_name") var firstName: String,
+    @SerializedName("last_name") var lastName: String,
     var email: String,
     var password: String,
-    var confirmPassword: String
+   @SerializedName("confirm_password") var confirmPassword: String
 )

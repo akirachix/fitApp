@@ -24,10 +24,14 @@
         <entry key="app/src/main/res/layout/activity_signup.xml" value="0.1546875" />
         <entry key="app/src/main/res/layout/activity_slides.xml" value="0.1546875" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.1546875" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.1546875" />
+        <entry key="app/src/main/res/layout/fragment_airtel_monney.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_card.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_mobile_money.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_mpessa.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_profile_fregment.xml" value="0.13802083333333334" />
-        <entry key="app/src/main/res/layout/fragment_progress.xml" value="0.1546875" />
+        <entry key="app/src/main/res/layout/fragment_progress.xml" value="0.1" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.13802083333333334" />
       </map>
     </option>
