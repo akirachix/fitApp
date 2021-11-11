@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/layoutSplash"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -21,4 +20,3 @@ android:background="@color/backgroundColor">
         android:layout_height="match_parent"/>
 
 </RelativeLayout>
-</layout>

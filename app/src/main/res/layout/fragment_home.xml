@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,12 +11,12 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:background="@drawable/border"
+        android:backgroundTint="@color/backgroundColor"
         android:padding="10dp"
         android:textSize="20sp"
         android:textStyle="bold"
         android:text="Categories"
         android:textAlignment="center"
-        android:src="@drawable/ic_search_foreground"
         />
 
 
@@ -26,20 +25,13 @@
         android:layout_height="50dp"
         android:layout_below="@id/txtTitle"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="30dp"
-        android:src="@drawable/ic_baseline_search_24" />
+        android:src="@drawable/ic_search_foreground" />
+
 
     <GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-
-    </GridLayout>
-
-    <GridLayout
-        android:id="@+id/card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageView
@@ -65,8 +57,6 @@
 
     </GridLayout>
     <GridLayout
-        android:id="@+id/card2"
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageView
@@ -89,8 +79,6 @@
 
     </GridLayout>
     <GridLayout
-        android:id="@+id/card1"
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageView
@@ -114,8 +102,6 @@
 
     </GridLayout>
     <GridLayout
-        android:id="@+id/card3"
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageView
@@ -138,8 +124,6 @@
 
     </GridLayout>
     <GridLayout
-        android:id="@+id/card4"
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageView
@@ -156,13 +140,10 @@
             android:text="Belly workouts"
             android:textColor="@color/black"
             android:textSize="20sp"
-            android:layout_marginTop="510dp"
+            android:layout_marginTop="500dp"
             android:textAlignment="viewEnd"
             android:paddingStart="20dp"/>
-
-
 
     </GridLayout>
 
 </FrameLayout>
-</layout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/backgroundColor">
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="?actionBarSize"
+        android:layout_marginStart="150dp"
+        android:gravity="center_vertical"
+        android:text="My Progress"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:text="Day"
+        android:textSize="20sp"
+        android:layout_marginStart="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:text="Week"
+        android:textSize="20sp"
+        android:layout_marginStart="170dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:text="Month"
+        android:textSize="20sp"
+        android:layout_marginStart="270dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/progress"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="160dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:text="Goal:40%"
+        android:textSize="20sp"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:text="Active time"
+        android:textSize="22sp"
+        android:layout_marginStart="30dp"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:text="Calories"
+        android:textSize="22sp"
+        android:layout_marginStart="250dp"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="530dp"
+        android:text="140 Hours"
+        android:textSize="20sp"
+        android:layout_marginStart="30dp"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="530dp"
+        android:text="39.08"
+        android:textSize="20sp"
+        android:layout_marginStart="250dp"/>
+
+
+
+
+</FrameLayout>

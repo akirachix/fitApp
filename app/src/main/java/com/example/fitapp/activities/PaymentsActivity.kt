@@ -4,9 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.fitapp.R
 
-class Congrates2 : AppCompatActivity() {
+class PaymentsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_congrates2)
+        setContentView(R.layout.activity_payments)
     }
 }

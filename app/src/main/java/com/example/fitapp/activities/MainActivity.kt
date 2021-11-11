@@ -1,12 +1,13 @@
 package com.example.fitapp.activities
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.databinding.DataBindingUtil
+
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
 import com.example.fitapp.R
 import com.example.fitapp.databinding.ActivityMainBinding
+
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {

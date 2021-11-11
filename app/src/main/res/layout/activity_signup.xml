@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -53,7 +52,6 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/tvfirstName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="FirstName"
@@ -79,7 +77,6 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/tvlastName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="LastName"
@@ -104,7 +101,6 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/tvemail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Email"
@@ -129,7 +125,6 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/tvpassword"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Password"
@@ -155,7 +150,6 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/tvconfirmPassword"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Confirm Password"
@@ -206,4 +200,3 @@
 
 
     </LinearLayout>
-</layout>
