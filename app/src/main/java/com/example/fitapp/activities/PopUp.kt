@@ -20,16 +20,16 @@ class PopUp : AppCompatActivity() {
             this, R.layout.activity_pop_up
         )
         binding.btnPopup.setOnClickListener {
-            val intent = Intent(this, Card::class.java)
+            val intent = Intent(this, CardActivity::class.java)
             startActivity(intent)
         }
         binding.btnPopup2.setOnClickListener {
-            val intent = Intent(this, Card::class.java)
+            val intent = Intent(this, CardActivity::class.java)
             startActivity(intent)
 
         }
         binding.btnPopup3.setOnClickListener {
-            val intent = Intent(this, Card::class.java)
+            val intent = Intent(this, CardActivity::class.java)
             startActivity(intent)
         }
     }

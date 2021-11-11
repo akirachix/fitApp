@@ -1,6 +1,8 @@
 package com.example.fitapp.models
 
+import android.media.Image
+
 data class Workouts(
-    var image: Int,
+    var image: Image,
     var name: String
 )
