@@ -21,8 +21,12 @@ class Goals : AppCompatActivity() {
             val intent = Intent(baseContext, MainActivity::class.java)
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             startActivity(intent)
+            
         }
-
+        binding.imgBackButton.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
 
 
     }

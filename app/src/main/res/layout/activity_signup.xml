@@ -36,7 +36,9 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <LinearLayout
+                android:id="@+id/etConfirmPassword"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp"
@@ -52,6 +54,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/etFirstName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="FirstName"
@@ -77,6 +80,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/etLastName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="LastName"
@@ -101,6 +105,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/etEmail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Email"
@@ -125,6 +130,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/etPassword"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Password"
@@ -150,6 +156,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/tvConfirmPassword"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Confirm Password"

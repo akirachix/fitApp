@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CongratesActivity">
+
+    <TextView
+        android:id="@+id/tvcongrates"
+        android:layout_width="wrap_content"
+
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Congratulations!"
+        android:textSize="34sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgtick"
+        android:layout_width="286dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="87dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvcongrates"
+        app:srcCompat="@drawable/ic_baseline_check_24" />
+
+    <TextView
+        android:id="@+id/tvcongs"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="24dp"
+        android:text="Congratulations ! Your booking has been placed successfully"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtick" />
+
+    <Button
+        android:id="@+id/btnhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="134dp"
+        android:backgroundTint="@color/backgroundColor"
+        android:text="Go to Home"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvcongs" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

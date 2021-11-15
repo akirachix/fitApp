@@ -16,15 +16,16 @@
             android:layout_centerHorizontal="true"
             android:layout_gravity="center_horizontal"
             android:text="Premium Workouts"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:layout_marginTop="50dp"/>
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="450dp"
+            android:layout_height="500dp"
             android:layout_below="@id/txtTitle"
             android:layout_centerHorizontal="true"
             android:layout_marginStart="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="30dp"
             android:src="@drawable/slide_1" />
     </RelativeLayout>
@@ -35,6 +36,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
+        android:padding="5dp"
         android:layout_marginBottom="20dp"
         android:orientation="vertical">
 
@@ -51,6 +53,7 @@
             android:id="@+id/btnlogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:backgroundTint="@color/backColor"
             android:text="Login"
             android:textColor="@color/black" />
